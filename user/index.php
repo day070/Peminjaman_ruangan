@@ -2,7 +2,7 @@
 require "../session.php";
 require "../koneksi.php";
 
-$nama = $_SESSION['nama'];
+$nama = $_SESSION['username'];
 $query = mysqli_query($con, "SELECT * FROM ruangan_lab");
 $data = mysqli_fetch_array($query);
 ?>
