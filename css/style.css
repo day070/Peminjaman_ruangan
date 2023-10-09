@@ -1,0 +1,55 @@
+:root {
+  --warna-1-color: #011f4b;
+  --warna-2-color: #03396c;
+  --warna-3-color: #005b96;
+  --warna-4-color: #6497b1;
+  --warna-5-color: #b3cde0;
+  --main-txt-color: blue;
+  --main-padding: 15px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--warna-2-color) !important;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.login-form {
+  width: 380px;
+  height: 450px;
+  padding: 20px;
+  background-color: var(--warna-2-color);
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  background: var(--warna-1-color);
+  color: #fff;
+  border: 2px solid var(--warna-3-color);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: none;
+  background: var(--warna-1-color);
+  color: #fff;
+  margin: 0;
+}
+
+.btn {
+  background: var(--warna-3-color);
+  outline: none;
+  border: none;
+}
